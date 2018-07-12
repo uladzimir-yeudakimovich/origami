@@ -10,8 +10,7 @@
   padding: 0;
 }
 
-html,
-body {
+html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -58,6 +57,18 @@ header {
   transform: skewY(6deg);
 }
 
+.decorate-header2 {
+  width: 30%;
+  height: 100%;
+  margin-top: 2.1%;
+  background: white;
+  -o-transform: skewY(-6deg);
+  -ms-transform: skewY(-6deg);
+  -moz-transform: skewY(-6deg);
+  -webkit-transform: skewY(-6deg);
+  transform: skewY(-6deg);
+}
+
 .logo {
   font-size: 1.5vw;
   width: 40%;
@@ -78,23 +89,27 @@ header {
   width: 40%;
   margin-top: 30px;
 }
+
 ul {
   display: block;
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 ul:after {
   display: block;
   content: ' ';
   clear: both;
   float: none;
 }
+
 ul.menu1 > li, ul.menu2 > li {
   width: 25%;
   float: left;
   position: relative;
 }
+
 ul.menu1 > li > a {
   display: block;
   padding: 10px;
@@ -103,6 +118,7 @@ ul.menu1 > li > a {
   background-color: rgb(243, 204, 31);
   text-decoration: none;
 }
+
 ul.submenu1, ul.submenu2 {
   display: none;
   position: absolute;
@@ -110,9 +126,11 @@ ul.submenu1, ul.submenu2 {
   top: 37px;
   left: 0;
 }
+
 ul.submenu1 > li, ul.submenu2 > li {
   display: block;
 }
+
 ul.submenu1 > li > a {
   display: block;
   padding: 10px;
@@ -120,11 +138,37 @@ ul.submenu1 > li > a {
   background-color: black;
   text-decoration: none;
 }
+
 ul.submenu1 > li > a:hover, ul.submenu2 > li > a:hover {
   text-decoration: underline;
 }
+
 ul.menu1 > li:hover > ul.submenu1, ul.menu2 > li:hover > ul.submenu2 {
   display: block;
+}
+
+.menu2 {
+  display: flex;
+  height: 30px;
+  width: 85%;
+  margin-top: 30px;
+}
+
+ul.menu2 > li > a {
+  display: block;
+  padding: 10px;
+  color: rgb(243, 204, 31);
+  font-weight: 900;
+  background-color: black;
+  text-decoration: none;
+}
+
+ul.submenu2 > li > a {
+  display: block;
+  padding: 10px;
+  color: black;
+  background-color: rgb(243, 204, 31);
+  text-decoration: none;
 }
 
 article {
@@ -149,45 +193,10 @@ article > p {
 
 .header-string2 {
   position: absolute;
-  top: 25%;
-  left: 44%;
-  width: 10px;
+  left: 5%;
+  width: 3%;
   height: 8vw;
   background-color: rgb(243, 204, 31);
-}
-
-.decorate-header2 {
-  width: 30%;
-  height: 100%;
-  margin-top: 2.1%;
-  background: white;
-  -o-transform: skewY(-6deg);
-  -ms-transform: skewY(-6deg);
-  -moz-transform: skewY(-6deg);
-  -webkit-transform: skewY(-6deg);
-  transform: skewY(-6deg);
-}
-
-.menu2 {
-  display: flex;
-  height: 30px;
-  width: 85%;
-  margin-top: 30px;
-}
-ul.menu2 > li > a {
-  display: block;
-  padding: 10px;
-  color: rgb(243, 204, 31);
-  font-weight: 900;
-  background-color: black;
-  text-decoration: none;
-}
-ul.submenu2 > li > a {
-  display: block;
-  padding: 10px;
-  color: black;
-  background-color: rgb(243, 204, 31);
-  text-decoration: none;
 }
 
 main {
@@ -271,8 +280,29 @@ footer {
 }
 
 .background-footer > p {
-  width: 58%;
+  width: 56%;
   text-align: center;
   margin: 20px auto 50px;
-  color: white;
+  color: rgb(189, 189, 189);
+}
+
+input {
+  width: 40%;
+  height: 30px;
+  padding: 0 1%;
+  margin: 15px 29%;
+  border: 1px solid rgb(189, 189, 189);
+  background: rgba(7, 7, 7, 0.1);
+}
+
+input[name="message"] {
+  height: 80px;
+}
+
+input[type=submit] {
+  width: 42%;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(243, 204, 31);
 }
