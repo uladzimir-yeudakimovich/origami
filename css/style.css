@@ -129,24 +129,19 @@ ul.menu1 > li:hover > ul.submenu1, ul.menu2 > li:hover > ul.submenu2 {
 
 article {
   position: absolute;
-  width: 36%;
   margin-top: 330px;
   color: rgb(243, 204, 31);
-  margin-left: 30%;
+  margin-left: 40.5%;
 }
 
 article > h1 {
-  margin-right: 36%;
+  margin-right: 65%;
   display: block;
   font-size: 2vw;
   float: right;
 }
 
 article > p {
-  top: 20px;
-  margin-top: 60xp;
-  margin-right: 2%;
-  display: block;
   font-weight: 900;
   font-size: 5vw;
   float: right;
@@ -154,10 +149,10 @@ article > p {
 
 .header-string2 {
   position: absolute;
-  top: 24%;
-  left: 34%;
+  top: 25%;
+  left: 44%;
   width: 10px;
-  height: 110px;
+  height: 8vw;
   background-color: rgb(243, 204, 31);
 }
 
@@ -193,13 +188,6 @@ ul.submenu2 > li > a {
   color: black;
   background-color: rgb(243, 204, 31);
   text-decoration: none;
-}
-
-.background-header2 > h1 {
-  margin-top: 293px;
-  margin-left: 2%;
-  font-weight: 900;
-  font-size: 5vw;
 }
 
 main {
@@ -273,6 +261,18 @@ footer {
 
 .background-footer {
   width: 100%;
-  height: 100%;
   background: rgba(7, 7, 7, 0.8);
+}
+
+.background-footer > h1 {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+}
+
+.background-footer > p {
+  width: 58%;
+  text-align: center;
+  margin: 20px auto 50px;
+  color: white;
 }
