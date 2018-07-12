@@ -78,7 +78,7 @@ header {
 }
 
 .header-string1 {
-  width: 40px;
+  width: 15%;
   height: 6px;
   background-color: rgb(243, 204, 31);
 }
@@ -286,23 +286,33 @@ footer {
   color: rgb(189, 189, 189);
 }
 
-input {
+textarea {
   width: 40%;
   height: 30px;
   padding: 0 1%;
   margin: 15px 29%;
   border: 1px solid rgb(189, 189, 189);
   background: rgba(7, 7, 7, 0.1);
+  color: rgb(189, 189, 189);
 }
 
-input[name="message"] {
+textarea[name="message"] {
   height: 80px;
 }
 
-input[type=submit] {
+input {
   width: 42%;
+  height: 30px;
+  padding: 0 1%;
+  margin: 15px 29%;
   font-weight: 900;
   border: none;
   cursor: pointer;
   background-color: rgb(243, 204, 31);
+  color: black;
+}
+
+input:hover {
+  background-color: black;
+  color: rgb(243, 204, 31);
 }
