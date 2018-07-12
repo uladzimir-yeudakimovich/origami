@@ -70,7 +70,7 @@ header {
 }
 
 .logo {
-  font-size: 1.5vw;
+  font-size: 1vw;
   width: 40%;
   margin-top: 30px;
   color: rgb(243, 204, 31);
@@ -78,8 +78,9 @@ header {
 }
 
 .header-string1 {
-  width: 15%;
+  width: 9%;
   height: 6px;
+  margin-top: 15px;
   background-color: rgb(243, 204, 31);
 }
 
@@ -88,6 +89,8 @@ header {
   height: 30px;
   width: 40%;
   margin-top: 30px;
+  font-size: 1vw;
+  font: 900;
 }
 
 ul {
@@ -150,8 +153,10 @@ ul.menu1 > li:hover > ul.submenu1, ul.menu2 > li:hover > ul.submenu2 {
 .menu2 {
   display: flex;
   height: 30px;
-  width: 85%;
+  width: 78%;
   margin-top: 30px;
+  font-size: 1vw;
+  font: 900;
 }
 
 ul.menu2 > li > a {
@@ -193,9 +198,10 @@ article > p {
 
 .header-string2 {
   position: absolute;
+  top: 5%;
   left: 5%;
   width: 3%;
-  height: 8vw;
+  height: 6.6vw;
   background-color: rgb(243, 204, 31);
 }
 
@@ -315,3 +321,4 @@ input[type=submit]:hover {
   background-color: black;
   color: rgb(243, 204, 31);
 }
+
