@@ -176,21 +176,21 @@ ul.submenu2 > li > a {
   text-decoration: none;
 }
 
-article {
+.description {
   position: absolute;
   margin-top: 330px;
   color: rgb(243, 204, 31);
   margin-left: 40.5%;
 }
 
-article > h1 {
+.description > h1 {
   margin-right: 65%;
   display: block;
   font-size: 2vw;
   float: right;
 }
 
-article > p {
+.description > p {
   font-weight: 900;
   font-size: 5vw;
   float: right;
@@ -212,7 +212,7 @@ main {
   align-items: center;
 }
 
-section > h1 {
+.information > h1 {
   margin: 50px auto 0;
   text-align: center;
 }
@@ -231,7 +231,7 @@ section > h1 {
   margin: 0 auto;
 }
 
-section > p {
+.information > p {
   width: 85%;
   text-align: center;
   margin: 20px auto 50px;
@@ -325,15 +325,15 @@ input[type=submit]:hover {
   .logo {margin-left: 5%;}
   .header-string1  {width: 15%;}
   .menu1, .menu2 {display: none;}
-  article {margin-left: 24.5%;}
+  .description {margin-left: 24.5%;}
   .decorate-header {height: 120px;}
   .decorate-header1 {width: 95%;}
   .decorate-header2 {
     width: 5%;
     margin-top: 4.7%;
   }
-  section > h1 {margin-top: 20px;}
-  section > p {
+  .information > h1 {margin-top: 20px;}
+  .information > p {
     width: 90%;
     margin-bottom: 35px;
   }
