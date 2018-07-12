@@ -286,7 +286,7 @@ footer {
   color: rgb(189, 189, 189);
 }
 
-textarea {
+input, textarea {
   width: 40%;
   height: 30px;
   padding: 0 1%;
@@ -296,15 +296,14 @@ textarea {
   color: rgb(189, 189, 189);
 }
 
-textarea[name="message"] {
+textarea {
   height: 80px;
+  padding-top: 7px;
+  font-size: 14px;
 }
 
-input {
+input[type=submit] {
   width: 42%;
-  height: 30px;
-  padding: 0 1%;
-  margin: 15px 29%;
   font-weight: 900;
   border: none;
   cursor: pointer;
@@ -312,7 +311,7 @@ input {
   color: black;
 }
 
-input:hover {
+input[type=submit]:hover {
   background-color: black;
   color: rgb(243, 204, 31);
 }
