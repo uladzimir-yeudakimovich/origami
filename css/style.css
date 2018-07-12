@@ -70,11 +70,12 @@ header {
 }
 
 .logo {
+  position: absolute;
   font-size: 1vw;
-  width: 40%;
-  margin-top: 30px;
+  width: 30vw;
+  top: 4%;
+  left: 5%;
   color: rgb(243, 204, 31);
-  margin-left: 20%;
 }
 
 .header-string1 {
@@ -84,13 +85,11 @@ header {
   background-color: rgb(243, 204, 31);
 }
 
-.menu1 {
-  display: flex;
-  height: 30px;
-  width: 40%;
-  margin-top: 30px;
+nav {
+  position: absolute;
+  left: 45%;
+  top: 4%;
   font-size: 1vw;
-  font: 900;
 }
 
 ul {
@@ -107,18 +106,27 @@ ul:after {
   float: none;
 }
 
-ul.menu1 > li, ul.menu2 > li {
-  width: 25%;
+ul.menu > li, ul.menu > li {
+  width: 12.5%;
   float: left;
   position: relative;
 }
 
-ul.menu1 > li > a {
+ul.menu > li > a {
   display: block;
-  padding: 10px;
+  padding: 0.6vw;
   color: black;
   font-weight: 900;
   background-color: rgb(243, 204, 31);
+  text-decoration: none;
+}
+
+ul.menu > .other-color > a {
+  display: block;
+  padding: 0.6vw;
+  color: rgb(243, 204, 31);
+  font-weight: 900;
+  background-color: black;
   text-decoration: none;
 }
 
@@ -142,38 +150,20 @@ ul.submenu1 > li > a {
   text-decoration: none;
 }
 
-ul.submenu1 > li > a:hover, ul.submenu2 > li > a:hover {
-  text-decoration: underline;
-}
-
-ul.menu1 > li:hover > ul.submenu1, ul.menu2 > li:hover > ul.submenu2 {
-  display: block;
-}
-
-.menu2 {
-  display: flex;
-  height: 30px;
-  width: 78%;
-  margin-top: 30px;
-  font-size: 1vw;
-  font: 900;
-}
-
-ul.menu2 > li > a {
-  display: block;
-  padding: 10px;
-  color: rgb(243, 204, 31);
-  font-weight: 900;
-  background-color: black;
-  text-decoration: none;
-}
-
 ul.submenu2 > li > a {
   display: block;
   padding: 10px;
   color: black;
   background-color: rgb(243, 204, 31);
   text-decoration: none;
+}
+
+ul.submenu1 > li > a:hover, ul.submenu2 > li > a:hover {
+  text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu1, ul.menu > li:hover > ul.submenu2 {
+  display: block;
 }
 
 .description {
@@ -324,7 +314,7 @@ input[type=submit]:hover {
   .background-header1, .background-header2 {width: 50%;}
   .logo {margin-left: 5%;}
   .header-string1  {width: 15%;}
-  .menu1, .menu2 {display: none;}
+  nav {display: none;}
   .description {margin-left: 24.5%;}
   .decorate-header {height: 120px;}
   .decorate-header1 {width: 95%;}
@@ -342,6 +332,7 @@ input[type=submit]:hover {
     margin-bottom: -40px;
     margin-left: -30%;
   }
+  .decorate-footer1 {margin-bottom: 1.5%;}
   .background-footer > p {
     width: 95%;
     margin-bottom: 10px;
