@@ -87,8 +87,8 @@ header {
 
 nav {
   position: absolute;
-  left: 60%;
-  top: 2%;
+  left: 45%;
+  top: 4%;
   font-size: 1vw;
 }
 
@@ -319,24 +319,35 @@ input[type=submit]:hover {
 @media (max-width: 992px) {
   .background-header1, .background-header2 {width: 50%;}
   .logo {margin-left: 5%;}
-  .header-string1  {width: 15%;}
-  nav {display: block;}
+  nav {
+    display: block;
+    left: 85%;
+    top: 2%;
+  }
   .menu-icon {display:inline-block;}
 	nav ul.menu, nav:active ul.menu {
 		display: none;
 		position: absolute;
-		padding: 20px;
-		right: 20px;
 	}
-	nav li {
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-	}
+	nav li {text-align: center;}
 	nav:hover ul {
     display: block;
     position: static;
+    margin-left: -40%;
+  }
+  ul.menu > li, ul.menu > li {
+    width: 100%;
+  }
+  ul.menu > li > a, ul.menu > .other-color > a {
+    display: inline-block;
+    padding: 1.2vw 2vw;
+    color: rgb(243, 204, 31);
+    background-color: black;
+  }
+  /* ul.submenu1 > li > a, ul.submenu2 > li > a {display: none;} */
+  ul.submenu1 > li > a {
+    color: black;
+    background-color: rgb(243, 204, 31);
   }
   .description {margin-left: 24.5%;}
   .decorate-header {height: 120px;}
