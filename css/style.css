@@ -17,6 +17,14 @@ html, body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.banner {
+  position: absolute;
+  height: 20px;
+  top: 90%;
+  left: 40%;
+  color: white;
+}
+
 .content {
   flex: 1 0 auto;
 }
