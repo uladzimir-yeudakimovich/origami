@@ -325,29 +325,40 @@ input[type=submit]:hover {
     top: 2%;
   }
   .menu-icon {display:inline-block;}
-	nav ul.menu, nav:active ul.menu {
-		display: none;
-		position: absolute;
-	}
+	nav ul.menu, nav:active ul.menu {display: none;}
 	nav li {text-align: center;}
-	nav:hover ul {
+	nav:hover ul.menu {
     display: block;
     position: static;
-    margin-left: -40%;
+    margin-left: -50px;
   }
-  ul.menu > li, ul.menu > li {
+  ul.menu > li {
     width: 100%;
   }
   ul.menu > li > a, ul.menu > .other-color > a {
     display: inline-block;
-    padding: 1.2vw 2vw;
+    font-size: 12px;
+    padding: 10px 20px;
     color: rgb(243, 204, 31);
     background-color: black;
   }
-  /* ul.submenu1 > li > a, ul.submenu2 > li > a {display: none;} */
-  ul.submenu1 > li > a {
+  ul.menu > li > a:hover, ul.menu > .other-color > a:hover {
     color: black;
     background-color: rgb(243, 204, 31);
+  }
+  ul.submenu1, ul.submenu2 {
+    position: initial;
+    width: 70%;
+  }
+  ul.submenu1 > li > a {
+    font-size: 12px;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(243, 204, 31);
+  }
+  ul.submenu1 > li > a:hover, ul.submenu2 > li > a:hover {
+    color: rgb(243, 204, 31);
+    background-color: black;
   }
   .description {margin-left: 24.5%;}
   .decorate-header {height: 120px;}
@@ -366,7 +377,6 @@ input[type=submit]:hover {
     margin-bottom: -40px;
     margin-left: -30%;
   }
-  .decorate-footer1 {margin-bottom: 1.5%;}
   footer {background: url(../img/2.jpg) no-repeat left center;}
   .background-footer > p {
     width: 95%;
