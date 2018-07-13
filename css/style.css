@@ -357,6 +357,10 @@ input[type=submit]:hover {
     margin-left: -30%;
   }
   .decorate-footer1 {margin-bottom: 1.5%;}
+  footer {
+    width: 300px;
+    background: url(../img/2.jpg) no-repeat left center;
+  }
   .background-footer > p {
     width: 95%;
     margin-bottom: 10px;
