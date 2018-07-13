@@ -88,13 +88,13 @@ header {
 nav {
   position: absolute;
   left: 60%;
-  top: 1%;
+  top: 2%;
   font-size: 1vw;
 }
 
 .menu-icon {
 	display: none;
-  font-size: 8vw;
+  font-size: 40px;
   color: black;
 }
 
