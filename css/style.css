@@ -87,16 +87,15 @@ header {
 
 nav {
   position: absolute;
-  left: 45%;
-  top: 4%;
+  left: 60%;
+  top: 1%;
   font-size: 1vw;
 }
 
 .menu-icon {
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: #4C8FEC url(../img/menu-icon.png) center;
+	display: none;
+  font-size: 8vw;
+  color: black;
 }
 
 ul {
@@ -321,7 +320,7 @@ input[type=submit]:hover {
   .background-header1, .background-header2 {width: 50%;}
   .logo {margin-left: 5%;}
   .header-string1  {width: 15%;}
-  nav {left: 90%;}
+  nav {display: block;}
   .menu-icon {display:inline-block;}
 	nav ul.menu, nav:active ul.menu {
 		display: none;
@@ -357,10 +356,7 @@ input[type=submit]:hover {
     margin-left: -30%;
   }
   .decorate-footer1 {margin-bottom: 1.5%;}
-  footer {
-    width: 300px;
-    background: url(../img/2.jpg) no-repeat left center;
-  }
+  footer {background: url(../img/2.jpg) no-repeat left center;}
   .background-footer > p {
     width: 95%;
     margin-bottom: 10px;
