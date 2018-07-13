@@ -92,6 +92,13 @@ nav {
   font-size: 1vw;
 }
 
+.menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(../img/menu-icon.png) center;
+}
+
 ul {
   display: block;
   margin: 0;
@@ -314,7 +321,24 @@ input[type=submit]:hover {
   .background-header1, .background-header2 {width: 50%;}
   .logo {margin-left: 5%;}
   .header-string1  {width: 15%;}
-  nav {display: none;}
+  nav {left: 90%;}
+  .menu-icon {display:inline-block;}
+	nav ul.menu, nav:active ul.menu {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		right: 20px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+    display: block;
+    position: static;
+  }
   .description {margin-left: 24.5%;}
   .decorate-header {height: 120px;}
   .decorate-header1 {width: 95%;}
