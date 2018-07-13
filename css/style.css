@@ -19,9 +19,10 @@ html, body {
 
 .banner {
   position: absolute;
-  height: 20px;
+  font-size: 2vw;
   top: 90%;
   left: 40%;
+  margin: 0 auto;
   color: white;
 }
 
