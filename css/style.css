@@ -52,7 +52,7 @@ header {
 
 .decorate-header {
   display: flex;
-  height: 145px;
+  height: 270px;
   margin-top: -70px;
 }
 
@@ -89,8 +89,8 @@ header {
 
 .header-string1 {
   width: 9%;
-  height: 6px;
-  margin-top: 15px;
+  height: 0.5vw;
+  margin-top: 1vw;
   background-color: rgb(243, 204, 31);
 }
 
@@ -217,8 +217,10 @@ main {
   align-items: center;
 }
 
+.information {z-index: 3;}
+
 .information > h1 {
-  margin: 50px auto 0;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -239,12 +241,12 @@ main {
 .information > p {
   width: 85%;
   text-align: center;
-  margin: 20px auto 50px;
+  margin: 20px auto 0;
 }
 
 .decorate-footer {
   display: flex;
-  height: 145px;
+  height: 270px;
   margin-bottom: -70px;
 }
 
