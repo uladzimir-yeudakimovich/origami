@@ -1,0 +1,14 @@
+@include font-face("Georgia", fonts/Georgia, normal, normal);
+
+@font-face {
+	font-family: "Georgia";
+	font-style: normal;
+	font-weight: normal;
+  src: url("../fonts/Georgia.ttf") format("truetype");
+      //  url("fonts/SamplinaNeue.eot?") format("eot"),
+	    //  url("fonts/SamplinaNeue.woff2") format("woff2"),
+	    //  url("fonts/SamplinaNeue.woff") format("woff"),
+	    //  url("fonts/SamplinaNeue.svg#Samplina_Neue") format("svg");
+}
+
+

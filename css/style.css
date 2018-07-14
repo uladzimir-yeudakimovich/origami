@@ -277,6 +277,7 @@ footer {
   height: 670px;
   background: url(../img/2.jpg) no-repeat center center;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .background-footer {
