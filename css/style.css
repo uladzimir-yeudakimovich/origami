@@ -175,7 +175,7 @@ ul:after {
 
 .submenu1 > li > a:hover, .submenu2 > li > a:hover {text-decoration: underline;}
 
-.menu > li:hover > .submenu1, .menu > li:hover > .submenu2 {display: block;}
+ul > li:hover > .submenu1, ul > li:hover > .submenu2 {display: block;}
 
 .description {
   position: absolute;

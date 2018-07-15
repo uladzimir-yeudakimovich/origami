@@ -1,3 +1,10 @@
+@font-face{
+  font-family: Georgia;
+  src:url('../fonts/Georgia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -75,9 +82,8 @@ html, body {
             .submenu1 {
               display: none;
               position: absolute;
-              width: 120px;
-              top: 37px;
-              left: 0;
+              width: 130%;
+              padding-left: 0;
               li {
                 display: block;
                 width: 100%;
@@ -111,9 +117,8 @@ html, body {
             .submenu2 {
               display: none;
               position: absolute;
-              width: 120px;
-              top: 37px;
-              left: 0;
+              width: 130%;
+              padding-left: 0;
               li {
                 display: block;
                 width: 100%;
@@ -150,7 +155,7 @@ html, body {
         position: absolute;
         margin-top: 330px;
         color: rgb(243, 204, 31);
-        margin-left: 37%;
+        margin-left: 40.5%;
         h1 {
           margin: 0 65% 0 0;
           display: block;
