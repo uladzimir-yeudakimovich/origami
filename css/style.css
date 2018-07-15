@@ -20,7 +20,7 @@ html, body {
 .banner {
   position: absolute;
   font-size: 2vw;
-  top: 85%;
+  top: 80%;
   left: 40%;
   margin: 0 auto;
   color: white;
@@ -121,13 +121,13 @@ ul:after {
   float: none;
 }
 
-ul.menu > li, ul.menu > li {
+.menu > li {
   width: 12.5%;
   float: left;
   position: relative;
 }
 
-ul.menu > li > a {
+.menu > li > a {
   display: block;
   padding: 0.6vw;
   color: black;
@@ -136,7 +136,7 @@ ul.menu > li > a {
   text-decoration: none;
 }
 
-ul.menu > .other-color > a {
+.menu > .other-color > a {
   display: block;
   padding: 0.6vw;
   color: rgb(243, 204, 31);
@@ -145,7 +145,7 @@ ul.menu > .other-color > a {
   text-decoration: none;
 }
 
-ul.submenu1, ul.submenu2 {
+.submenu1, .submenu2 {
   display: none;
   position: absolute;
   width: 120px;
@@ -153,11 +153,11 @@ ul.submenu1, ul.submenu2 {
   left: 0;
 }
 
-ul.submenu1 > li, ul.submenu2 > li {
+.submenu1 > li, .submenu2 > li {
   display: block;
 }
 
-ul.submenu1 > li > a {
+.submenu1 > li > a {
   display: block;
   padding: 10px;
   color: rgb(243, 204, 31);
@@ -165,7 +165,7 @@ ul.submenu1 > li > a {
   text-decoration: none;
 }
 
-ul.submenu2 > li > a {
+.submenu2 > li > a {
   display: block;
   padding: 10px;
   color: black;
@@ -173,13 +173,9 @@ ul.submenu2 > li > a {
   text-decoration: none;
 }
 
-ul.submenu1 > li > a:hover, ul.submenu2 > li > a:hover {
-  text-decoration: underline;
-}
+.submenu1 > li > a:hover, .submenu2 > li > a:hover {text-decoration: underline;}
 
-ul.menu > li:hover > ul.submenu1, ul.menu > li:hover > ul.submenu2 {
-  display: block;
-}
+.menu > li:hover > .submenu1, .menu > li:hover > .submenu2 {display: block;}
 
 .description {
   position: absolute;
@@ -337,39 +333,39 @@ input[type=submit]:hover {
     top: 2%;
   }
   .menu-icon {display:inline-block;}
-	nav ul.menu, nav:active ul.menu {display: none;}
+	nav .menu, nav:active .menu {display: none;}
 	nav li {text-align: center;}
-	nav:hover ul.menu {
+	nav:hover .menu {
     display: block;
     position: static;
     margin-left: -50px;
   }
-  ul.menu > li {
+  .menu > li {
     width: 100%;
   }
-  ul.menu > li > a, ul.menu > .other-color > a {
+  .menu > li > a, .menu > .other-color > a {
     display: inline-block;
     font-size: 12px;
     padding: 10px 20px;
     color: rgb(243, 204, 31);
     background-color: black;
   }
-  ul.menu > li > a:hover, ul.menu > .other-color > a:hover {
+  .menu > li > a:hover, .menu > .other-color > a:hover {
     color: black;
     background-color: rgb(243, 204, 31);
   }
-  ul.submenu1, ul.submenu2 {
+  .submenu1, .submenu2 {
     position: initial;
     width: 70%;
   }
-  ul.submenu1 > li > a {
+  .submenu1 > li > a {
     font-size: 14px;
     font-weight: 900;
     padding: 10px;
     color: black;
     background-color: rgb(243, 204, 31);
   }
-  ul.submenu1 > li > a:hover, ul.submenu2 > li > a:hover {
+  .submenu1 > li > a:hover, .submenu2 > li > a:hover {
     color: rgb(243, 204, 31);
     background-color: black;
   }

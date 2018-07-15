@@ -7,7 +7,7 @@ const ImageminPlugin = require('imagemin-webpack-plugin').default;
 
 module.exports = {
   mode: 'production',
-  entry: './js/main.js',
+  entry: ['./js/main.js', './css/style.scss'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
