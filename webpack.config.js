@@ -9,7 +9,7 @@ module.exports = {
   mode: 'production',
   entry: ['./js/main.js', './css/style.scss'],
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, ''),
     filename: 'bundle.js'
   },
   module: {
@@ -75,12 +75,12 @@ module.exports = {
     new ExtractTextPlugin('bundle.css'),
     new ImageminPlugin({test: /\.jpg$/}),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'index.html')
+      template: path.resolve(__dirname, 'src/index.html')
     })
   ],
   devServer: {
     host: 'localhost',
     port: 8000,
-    contentBase: __dirname + 'dist'
+    contentBase: __dirname + ''
   }
 }
